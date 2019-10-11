@@ -1,0 +1,9 @@
+.hello{
+	width: 250px;
+	position: absolute;
+}
+
+.done{
+	color: gray;
+	text-decoration: line-through;
+}

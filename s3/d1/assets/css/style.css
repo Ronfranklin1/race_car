@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/oecheck.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#box{
+	border: 2px solid black;
+	margin-left: 300px;
+	margin-top: 300px;
+	padding-left: 20px;
+	padding-bottom: 100px;
+	width: 50%;
+	height: 50%;
+	background-color: gray;
+	border-radius: 5px;
+}
+
+#top{
+	margin-left: 150px;
+	margin-top: 50px;
+
+}
+
+#checker{
+	margin-left: 200px;
+}
+
+#output{
+	margin-left: 220px;
+}
+

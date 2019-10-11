@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<title>DOM Manipulation</title>
+
+
+<!-- <script>
+	document.getElementById("internal").onclick = function(){
+		alert('this is interal from the head')
+	}
+</script> -->
+
+</head>
+<body>
+	<!-- Inline JS -->
+	<button onclick="alert('this is inline')">Inline</button>
+	<button id="internal">Internal JS</button>
+	<button id="btnContent">Change Content</button>
+	<button id="btnStyle">Change Styling</button>
+
+	<button id="internal">Internal JS</button>
+
+	<h1 id="headingText" class="head-tag hello">This is h1 Heading tag</h1>
+<!-- Internal JS -->
+
+
+
+
+<script>
+	document.getElementById("internal").onclick = function(){
+		alert('this is interal')
+	}
+</script>
+
+<!-- external JS -->
+<script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/bg.jpeg");
+}
+
+#header{
+	/*background-color: indianred;*/
+	padding: 100px;
+	margin: 20px;
+}
+
+.input{
+	margin-left: 30px;
+	box-sizing: border-box;
+	border-bottom: 20px
+	
+
+}
+
+.list{
+	margin-left: 30px;
+	border-radius: 100px;
+}
